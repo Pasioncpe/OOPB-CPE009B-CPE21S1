@@ -106,10 +106,10 @@ def populate_catalog_view(filepath, list_view, category_filter=CATEGORY_ALL, sea
                     model.appendRow(catalog_item)
 
         list_view.setModel(model)
-        list_view.setIconSize(QtCore.QSize(80, 80))
+        list_view.setIconSize(QtCore.QSize(110, 110))
         list_view.setWordWrap(True)
         list_view.setTextElideMode(QtCore.Qt.TextElideMode.ElideNone)
-        list_view.setSpacing(15)
+        list_view.setSpacing(20)
         list_view.setResizeMode(QtWidgets.QListView.ResizeMode.Adjust)
         list_view.setMovement(QtWidgets.QListView.Movement.Static)
 
